@@ -52,3 +52,11 @@ a:hover{
     opacity: 0.5;
 }
 
+#footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #4169e1;
+    text-align: center;
+}
