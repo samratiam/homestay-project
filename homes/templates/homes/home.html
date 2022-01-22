@@ -4,10 +4,28 @@
 
 {% block content %}
 
-<main>
-    <section class="hero">
-        <img src= "{% static 'images/house.png' %}" alt="house">
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+<section class="hero">
+        <div class="container">
+            <div>
+                <h1>Explore your favourite destinations in Nepal</h1>
+                <br>
+                <h3>Enter Location</h3>
+                <input type="text">
+                <br>
+                <br>
+                <h3>From Date</h3>
+                <input type="date">
+                <br>
+                <br>
+                <h3>To Date</h3>
+                <input type="date">
+
+
+            </div>
+    
+            <img src= "{% static 'images/house.png' %}" alt="house">    
+        </div>
     </section>
-</main>
 
 {% endblock content %}

@@ -9,12 +9,15 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">                
     <title>HomeStay Project</title>
 </head>
+
+
 <body>
+
     <header>
+        <!--Navbar-->
         <nav class="navbar"> 
             <div class="container">
                 <div class="logo">HomeStay Nepal</div>
-    
                 <ul>
                     <li class="navbar--items"><a href="#">Home</a></li>
                     <li class="navbar--items"> <a href="#">About</a></li>
@@ -24,18 +27,21 @@
         </nav>
     </header>
         
+    <!-- Main  -->
         {% block content %}
     
         {% endblock content %}
+        
+    <!-- Footer  -->
+    <footer id="footer">
+        <b>You can reach us at: </b>
+        <p>Email: homestay@gmail.com</p>
+        <p>Address: Kathmandu, Nepal</p>
+        <p>Contact No: 9841123456</p>
+
+        <em>Copyright &copy; 2022, HomeStay Nepal.</em>
+    </footer>
+
 </body>
-
-<footer id="footer">
-    <b>You can reach us at: </b>
-    <p>Email: homestay@gmail.com</p>
-    <p>Address: Kathmandu, Nepal</p>
-    <p>Contact No: 9841123456</p>
-
-    <em>Copyright &copy; 2022, HomeStay Nepal.</em>
-</footer>
 
 </html>

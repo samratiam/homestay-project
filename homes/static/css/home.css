@@ -1,0 +1,15 @@
+.hero{
+    min-height: 400px;
+    background: #d4691c;
+    padding: 2em 0;
+    color: rgb(3, 29, 68);
+}
+
+.hero .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
